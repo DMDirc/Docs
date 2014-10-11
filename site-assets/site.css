@@ -1,0 +1,188 @@
+body {
+ font-family: "DejaVu Sans", "Bitstream Vera Sans", sans-serif;
+ margin: 85px 8%;
+}
+
+#header {
+ background-image: linear-gradient(to bottom, #888 0%, #333 100%);
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ height: 50px;
+ min-width: 1000px;
+ border-bottom: 1px solid black;
+}
+
+#header h1 {
+ float: left;
+ color: #FFF;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 800;
+ font-size: 50px;
+ height: 50px;
+ margin: 0;
+ filter: drop-shadow(7px -7px 3px rgba(0,0,0,0.1));
+ -webkit-filter: drop-shadow(7px -7px 3px rgba(0,0,0,0.1));
+
+ background: url('logo.svg') -26px -18px / 80px no-repeat;
+ padding-left: 60px;
+}
+
+h2 {
+ border-bottom: 2px solid #ccc;
+}
+
+#header ul {
+ float: right;
+ height: 50px;
+ margin: 0;
+ padding: 0 50px 0 0;
+}
+
+#header li {
+ display: inline-block;
+}
+
+#header li a {
+ background-image: linear-gradient(to bottom, #909090 0%, #444 100%);
+ display: inline-block;
+ width: 100px;
+ height: 50px;
+ margin: 0 10px;
+ padding: 0;
+ border-left: 1px solid #888;
+ border-right: 1px solid #888;
+ position: relative;
+}
+
+#header li.active a span {
+ color: #FFF;
+}
+
+#header li a:hover, #header li.active a {
+ background-image: linear-gradient(to bottom, #AAA 0%, #666 100%);
+}
+
+#header li a span {
+ position: absolute;
+ font-size: small;
+ bottom: 2px;
+ left: 0;
+ right: 0;
+ text-align: center;
+ color: #DDD;
+ text-decoration: none;
+}
+
+#header li a:hover span, #header li.active a span {
+ color: #FFF;
+}
+
+.author {
+ background-color: #eee;
+ border-radius: 10px;
+ padding: 10px;
+}
+
+.author img {
+ width: 20px;
+ height: 20px;
+ vertical-align: text-bottom;
+}
+
+.author a {
+ text-decoration: none;
+ padding: 0 5px;
+}
+
+.readmore a {
+ display: inline-block;
+ background-color: #3d3;
+ padding: 5px 10px;
+ margin-bottom: 20px;
+ color: white;
+ text-decoration: none;
+}
+
+.readmore a:hover {
+ background-color: #0a0;
+}
+
+div.feature {
+ display: block;
+ width: 49%;
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+ font-size: small;
+}
+
+div.feature h3 {
+ margin: 10px 0px 0px 0px;
+ padding: 0px 5px;
+}
+
+div.feature h3 img {
+ margin-right: 5px;
+ vertical-align: top;
+}
+
+div.feature.odd {
+ float: left;
+ clear: both;
+}
+
+div.feature.even {
+ float: right;
+}
+
+div.feature p {
+ margin-top: 5px;
+ padding: 0px 15px 0px 26px;
+}
+
+div.sidebarss {
+ padding-top: 20px;
+ margin-bottom: 30px;
+}
+
+.right {
+ margin-left: 66%;
+}
+
+.left {
+ float: left;
+ width: 60%;
+}
+
+.clearer {
+ clear: both;
+ padding-top: 20px;
+}
+
+.downloads {
+ list-style-type: none;
+}
+
+.downloads a {
+ font-size: large;
+ font-weight: bold;
+}
+
+.downloads .filename {
+ font-size: small;
+}
+
+.downloads p {
+ margin: 10px 0;
+}
+
+.downloads img {
+ float: left;
+}
+
+.downloads li {
+ clear: left;
+ padding: 20px;
+}
